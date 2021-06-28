@@ -1,8 +1,3 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="inicio_frag_tv_que_es">¿Qué es PlatziConf?</string>
     <string name="inicio_frag_tv_que_es_resp">Platzi una vez más, cómo todos los años, hace el evento más grande de comunidad tecnológica en los que apasionados por aprender, emprender e innovar se encuentran en un mismo lugar para escuchar a expertos de la industria que durante horas comparten su conocimiento.</string>
     <string name="inicio_frag_tv_por_que">¿Por qué asistir?</string>
@@ -17,5 +12,3 @@ Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidad
         \u0009 &#8226; Fecha: Sábado 3 de Agosto de 2019.\n
         \u0009 &#8226; Lugar: Centro Cultural Roberto Cantoral.\n
         \u0009 &#8226; Dirección: Puente Xoco s/n, Xoco, 03330 Ciudad de México, CDMX.</string>
-
-</resources>
