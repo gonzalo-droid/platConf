@@ -1,4 +1,4 @@
-package com.example.confPlatziTest.ui.activities
+package com.example.confPlatziTest.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

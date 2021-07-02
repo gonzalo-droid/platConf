@@ -1,13 +1,8 @@
-package com.example.confPlatziTest
+package com.example.confPlatziTest.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.confPlatziTest.model.Conference
-import com.example.confPlatziTest.model.Speaker
-import com.google.firebase.firestore.FirebaseFirestore
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.example.confPlatziTest.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

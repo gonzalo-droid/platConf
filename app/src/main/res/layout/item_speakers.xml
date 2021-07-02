@@ -13,6 +13,7 @@
         android:orientation="vertical"
         >
         <ImageView
+            android:id="@+id/ivItemSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/height_view_home"
             android:src="@mipmap/ic_launcher"
@@ -20,6 +21,7 @@
             />
 
         <TextView
+            android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/inicio_frag_tv_que_es"
@@ -31,6 +33,7 @@
             />
 
         <TextView
+            android:id="@+id/tvItemSpeakerDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/inicio_frag_tv_que_es_resp"
