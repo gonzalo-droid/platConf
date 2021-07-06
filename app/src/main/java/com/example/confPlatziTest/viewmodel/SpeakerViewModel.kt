@@ -1,13 +1,14 @@
 package com.example.confPlatziTest.viewmodel
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.example.confPlatziTest.firebase.Callback
 import com.example.confPlatziTest.firebase.FirestoreService
 import com.example.confPlatziTest.model.Conference
 import com.example.confPlatziTest.model.Speaker
 import java.lang.Exception
 
-class SpeakerViewModel {
+class SpeakerViewModel: ViewModel() {
     val firestoreService = FirestoreService()
 
     var listSpeakerViewModel: MutableLiveData<List<Speaker>> = MutableLiveData()

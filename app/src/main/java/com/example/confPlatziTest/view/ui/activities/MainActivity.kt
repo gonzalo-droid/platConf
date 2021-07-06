@@ -2,13 +2,19 @@ package com.example.confPlatziTest.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.Navigation
+import androidx.navigation.ui.NavigationUI
 import com.example.confPlatziTest.R
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setActionBar(findViewById(R.id.toolbarMain))
+
+        configNav()
         /* up data to firebase
         val firebaseFirestore = FirebaseFirestore.getInstance()
         for(i in 0 until jsonArr.length()){
@@ -41,5 +47,9 @@ class MainActivity : AppCompatActivity() {
 
          */
 
+    }
+
+    fun configNav(){
+        NavigationUI.setupWithNavController(bnvMenu, Navigation.findNavController(this, R.id.fragContent))
     }
 }

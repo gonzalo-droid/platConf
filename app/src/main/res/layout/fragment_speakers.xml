@@ -12,6 +12,7 @@ tools:context=".view.ui.fragments.SpeakersFragment">
     />
 
 <RelativeLayout
+    android:id="@+id/rlBaseSpeaker"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
