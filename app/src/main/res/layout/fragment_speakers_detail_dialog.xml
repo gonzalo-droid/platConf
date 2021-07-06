@@ -11,8 +11,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <Toolbar
+        android:id="@+id/toolbarSpeaker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         />
 </com.google.android.material.appbar.AppBarLayout>
 
@@ -28,10 +30,10 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="350dp">
 
                 <ImageView
-                    android:id="@+id/ivItemDetailImage"
+                    android:id="@+id/itemDetailSpeakerImage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/platzi_conf_2"
@@ -48,6 +50,7 @@
 
 
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -56,15 +59,17 @@
                     android:layout_margin="10dp"
                     >
                     <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Jaun leonidas"
-                    android:textSize="30dp"
-                    android:textColor="@color/white"
-                    android:gravity="left|bottom"
-                    android:layout_centerInParent="true"
+                        android:id="@+id/itemDetailSpeakerTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jaun leonidas"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="left|bottom"
+                        android:layout_centerInParent="true"
                     />
                     <TextView
+                        android:id="@+id/itemDetailSpeakerJobTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Software Engineer"
@@ -74,6 +79,7 @@
                         android:layout_centerInParent="true"
                         />
                     <TextView
+                        android:id="@+id/itemDetailSpeakerWorkPlace"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="CEO braindTech"
@@ -108,7 +114,7 @@
 
 
                     <TextView
-                        android:id="@+id/tvItemDetailSpeakerDescription"
+                        android:id="@+id/itemDetailSpeakerDescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Al contrario del penss de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, 'consecteur', en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de de Finnibus Bonorum et Malorum (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teor."
@@ -125,6 +131,7 @@
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/icTwitter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"

@@ -22,7 +22,8 @@ class ScheduleViewModel: ViewModel() {
     }
     fun getScheduleFromFirebase(){
         firestoreService.getSchedule(object : Callback<List<Conference>> {
-            override fun onSuccess(resul: List<Conference>?) {
+            override fun onSuccess(result: List<Conference>?) {
+                listScheduleViewModel.postValue(result)
                 processFinished()
             }
 

@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Toolbar
+            android:id="@+id/toolbarConference"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentInsetStart="0dp"
@@ -44,7 +45,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/tvItemDetailTitle"
+                        android:id="@+id/tvItemDetailConferenceTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="News TEETS"

@@ -49,7 +49,7 @@ class ScheduleFragment : Fragment(), ScheduleListener {
 
         rvSchedule.apply{
             layoutManager = LinearLayoutManager(
-                view.context,
+                context,
                 LinearLayoutManager.VERTICAL,
                 false
             )
